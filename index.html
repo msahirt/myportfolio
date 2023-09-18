@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>    
+    <script src="https://kit.fontawesome.com/67d67fa3cc.js" crossorigin="anonymous"></script>
+    
+    <title>MST Web Developer</title>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>MOHAMED SAHIR T</h1>
+        <ul class="navigation">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <i class="fa-solid fa-bars"></i>
+          <!-- <ion-icon class="bars" name="menu-outline"></ion-icon> -->
+        </button>
+       
+
+
+  </nav>
+  
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <img
+          src="/assets/mstPhoto.jpg"
+          alt="mst"
+          loading="lazy"
+          class="hero-img"
+        />
+        <div class="bio animate__animated animate__shakeX">
+          <h2 class="bio-title">About Me</h2>
+          <p class="bio-text">
+            I'm a Full-stack Developer with a wide range of skills to build strong and dynamic websites. I work on the part of
+            websites you see (like how they look and behave) and the part you don't (like the behind-the-scenes stuff). I'm really
+            good at using HTML, CSS, and JavaScript to create the front-end of websites. I also know how to use React.js and
+            Node.js, which help me make interactive and flexible web pages. On the back-end, I use Express.js to make server-side
+            things work smoothly, and MongoDB to handle data efficiently. So, I basically handle everything from making websites
+            look nice to making sure they work well.
+          </p>
+        </div>
+  </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>More About Me</h2>
+      <p>
+        My passion for problem-solving, attention to detail, and dedication to staying updated with the latest industry trends
+        drive me to deliver innovative and high-quality solutions to clients and projects. With my skills and commitment, I am
+        well-equipped to tackle complex web development challenges and contribute to the success of any team or project.
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse"> 
+          <img
+            src="assets/html5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+           <img
+            src="assets/css-3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/javascript-1.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/bootstrap-4.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/nodejs-icon.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+     
+          <img
+            src="assets/mongodb-icon-1.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- Projects section -->
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylngw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+                ></textarea>
+              </div>
+              <input
+                type="submit"
+                value="Submit"
+                id="submit-btn"
+                class="submit-btn"
+              />
+            </form>
+          </div>
+        </div>
+      </section>
+  
+
+    <!-- Social accounts - Fixed to the right -->
+
+    <!-- Scroll to top -->
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2023 </p>
+      <p class="copy">
+        Built with &#x2661; by
+        <a href="https://twitter.com/koladechris" target="_blank"
+          >Mohamed Sahir</a
+        >
+      </p>
+</footer>
+
+
+    <script
+      src="main.js"
+    ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    
+</body>
+</html>
